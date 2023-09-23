@@ -36,7 +36,7 @@ final class ViewController: UIViewController {
         
         switchButton.layer.cornerRadius = 6
     }
-    
+    //IB Action
     @IBAction func switchButtonTapped() {
         switchButton.setTitle("Next", for: .normal)
         
